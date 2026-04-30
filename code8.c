@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+// Recursive function
+int power(int a, int b) {
+    if (b == 0)
+        return 1;          // base case
+
+    return a * power(a, b - 1);
+}
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    printf("%d", power(a, b));
+
+    return 0;
+}
+#include <stdio.h>
+
+// Recursive function
+int power(int a, int b) {
+    if (b == 0)
+        return 1;          // base case
+
+    return a * power(a, b - 1);
+}
+
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    printf("%d", power(a, b));
+
+    return 0;
+}
